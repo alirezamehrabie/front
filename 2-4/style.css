@@ -1,0 +1,41 @@
+body
+{
+    direction: rtl;
+}
+
+@font-face {
+    font-family: Shabnam;
+    src: url(fonts/Shabnam-Bold.ttf);
+}
+
+.btn
+{
+    padding: 0 24px 0 24px;
+    height: 40px;
+    border: 2px solid #8a0404;
+    border-radius: 2em;
+    background-color: #ffffff;
+    font-family: shabnam;
+    font-size: 16px !important;
+    /* Outline Commented */
+    /*outline: 1px solid rgb(187, 187, 187);*/
+
+}
+
+.btn:hover
+{
+    cursor: pointer;
+    background-color: #8a0404;
+    color: #ffffff;
+}
+
+.btn i
+{
+    margin: 0px -8px 0 8px;
+    font-size: 18px !important;
+}
+
+.btn *
+{
+    vertical-align: middle;
+}
