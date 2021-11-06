@@ -1,0 +1,239 @@
+body
+{
+    display: rtl;
+    text-align: center;
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.titr
+{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background: #006f983f;
+    margin: 4px 0 20px 0;
+    border-radius: 2em;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.titr:hover
+{
+    background: #0084986d;
+}
+
+
+
+.btn *
+{  
+      vertical-align: middle !important;
+}
+
+.btn
+{
+    display: block;
+    margin: 0 auto 8px auto;
+    border-radius: 2em;
+    font-family: sans-serif;
+    height: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+
+
+/* it's -> Button filled tonal  */
+.btn-filled-tonal
+{
+    padding: 0 24px 0 24px;
+    background-color: #ffecb4;
+    border: none; 
+}
+
+.btn-filled-tonal a
+{
+    font-size: 18px;
+    color: #7e6900;
+}
+
+.btn-filled-tonal i
+{
+    font-size: 18px !important;
+    margin: 0 8px 0 -8px;
+    color: #7e6900;
+}
+
+.btn-filled-tonal:hover
+{
+    box-shadow: 0px 0px 3px 0px #888888;
+}
+
+.btn-filled-tonal:focus
+{
+    background-color: #e4aa2c;
+}
+
+.btn-filled-tonal:active
+{
+    background-color: #f5c764;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* it's -> Button Outlined  */
+.btn-outlined
+{
+    padding: 0 24px 0 24px;
+    background-color: transparent;
+    outline: 2px solid #00407b;
+    border: none;
+}
+
+.btn-outlined a
+{
+    font-size: 18px;
+    color: #00407b;
+}
+
+.btn-outlined i
+{
+    font-size: 18px !important;
+    margin: 0 8px 0 -8px;
+    color: #00407b;
+}
+
+.btn-outlined:hover
+{
+    background: #0059ac0f;
+}
+
+.btn-outlined:focus
+{
+    background: #0078ac3c;
+}
+
+
+.btn-outlined:active
+{
+    background: #0059ac16;
+    outline-color: #000000;
+}
+
+
+
+
+
+
+/* it's -> filled Button */
+.filled-button
+{
+    padding: 0 24px 0 24px;
+    background-color: #007e3d;
+    outline: none;
+    border: none;
+}
+
+.filled-button a
+{
+    font-size: 18px;
+    color: #88ffc2;
+}
+
+.filled-button i
+{
+    font-size: 18px !important;
+    margin: 0 8px 0 -8px;
+    color: #a8ffd2;
+}
+
+.filled-button:hover
+{
+    background-color: #00984a;
+}
+
+.filled-button:focus
+{
+    background-color: #00984a;
+}
+
+.filled-button:active
+{
+    background-color: #02c25f;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* it's -> Text Button */
+.text-button
+{
+    padding: 0 16px 0 16px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+} 
+
+.text-button a
+{
+    font-size: 18px;
+    color: #d57500;
+}
+
+.text-button i
+{
+    font-size: 18px !important;
+    margin: 0 8px 0 -4px;
+    color: #d57500;
+}
+
+.text-button:hover
+{
+    background-color: #d5750031;
+}
+
+.text-button:focus
+{
+    background-color: #d5750031;
+         
+}
+
+.text-button:active
+{
+    background-color: #d575004e;
+    border: 1px solid #d57500;
+}
+
+
+
+
+
+
+
