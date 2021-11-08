@@ -1,0 +1,242 @@
+body
+{
+    direction: rtl;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn
+{
+    height: 40px;
+    border-radius: 2em;
+    text-align: center;
+    margin: 0 10px 20px 0;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+   
+}
+
+.btn * 
+{
+    vertical-align: middle;
+}
+
+/* 1 */
+
+/* Filled Button */
+/* Enabled */
+.filled-btn
+{
+    padding: 0 24px 0 24px;
+    outline: none;
+    border: none;
+    background: #6750A4;
+    opacity: 88%;
+}
+
+.filled-btn a
+{
+    color: #D0BCFF;
+}
+
+.filled-btn i
+{
+    color: #D0BCFF;
+    margin: 0 8px 0 -8px;
+    font-size: 18px;
+}
+
+/* Hovered Filled Button */
+.filled-btn:hover
+{
+    box-shadow: 0 0 3px 1px #949494;
+    opacity: 96%;
+}
+
+/* Focused Filled Button */
+.filled-btn:focus
+{
+    background: #6750A4;
+    opacity: 100%;
+}
+
+/* Pressed Filled Button */
+.filled-btn:active
+{
+    background: #6750A4;
+}
+
+.filled-btn:active > a , .filled-btn:active > i
+{
+    color: #D0BCFF;
+}
+
+/* Disabled Filled Button */
+.filled-btn:disabled
+{
+    opacity: 38%;
+    background: #8c8c8c;
+}
+
+.filled-btn:disabled > i , .filled-btn:disabled > a
+{
+    opacity: 38%;
+    color: #000000;
+  
+}
+
+
+
+
+
+/* 2 */
+
+
+
+
+
+/* Outlined Button */
+/* Enabled */
+.outlined-btn
+{
+    padding: 0 24px 0 24px;
+    outline: none;
+    border: none;
+    background: transparent;
+    outline: 1px solid #91998f;
+    opacity: 88%;
+}
+
+.outlined-btn a
+{
+    color: #6750A4;
+}
+
+.outlined-btn i
+{
+    color: #6750A4;
+    margin: 0 8px 0 -8px;
+    font-size: 18px;
+}
+
+/* Hovered Outlined Button */
+.outlined-btn:hover
+{
+    background: rgba(215, 198, 255, 0.167);
+    opacity: 88%;
+}
+
+
+/* Focused Outlined Button */
+.outlined-btn:focus
+{
+    background: rgba(208, 188, 255, 0.276);
+    outline-color: #6750A4;
+    opacity: 96%;
+}
+
+
+
+/* Focused Outlined Button */
+.outlined-btn:active
+{
+    background: rgba(204, 183, 252, 0.276);
+    opacity: 100%;
+}
+
+
+/* Disabled Outlined Button */
+.outlined-btn:disabled
+{
+    opacity: 38%;
+    background: #8c8c8c;
+}
+
+.outlined-btn:disabled > i , .outlined-btn:disabled > a
+{
+    opacity: 38%;
+    color: #000000;
+  
+}
+
+
+
+
+
+/* 3 */
+
+
+
+
+/* Text Button */
+/* Enabled */
+.text-btn
+{
+    padding: 0 16px 0 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+    outline: none;
+    opacity: 88%;
+}
+
+.text-btn a
+{
+    color: #6750A4;
+}
+
+.text-btn i
+{
+    color: #6750A4;
+    margin: 0 8px 0 -4px;
+    font-size: 18px;
+}
+
+
+/* Hovered Text Button */
+.text-btn:hover
+{
+    background: rgba(169, 132, 254, 0.208);
+    opacity: 100%;
+}
+
+
+/* Hovered Text Button */
+.text-btn:focus
+{
+    background: rgba(169, 132, 254, 0.208);
+    opacity: 80%;
+}
+
+
+/* Hovered Text Button */
+.text-btn:active
+{
+    background: rgba(169, 132, 254, 0.208);
+    opacity: 80%;
+}
+
+
+/* Disabled Text Button */
+.text-btn:disabled
+{
+    opacity: 38%;
+    background: #8c8c8c;
+}
+
+.text-btn:disabled > i , .text-btn:disabled > a
+{
+    opacity: 38%;
+    color: #000000;
+  
+}
