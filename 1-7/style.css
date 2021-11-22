@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@500&display=swap');
+
+
 *
 {
     box-sizing: border-box;
@@ -12,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
     padding: 20px 0;
     float: right;
     width: 100%;
@@ -21,10 +25,12 @@
 
 .container
 {
+    position: relative;
     width: 280px;
     height: 48px;
     border-radius: 4px;
-    outline: 2px solid rgba(0, 0, 0, .12);
+    outline: 1px solid rgba(0, 0, 0, .12);
+    padding: 0 12px 0 16px;
     
 }
 
@@ -35,10 +41,91 @@
 
 .container input
 {
-    margin: 0 16px 0 16px;
     background: none;
     height: 100%;
+    width: 200px;
     outline: none;
     border: none;
     color: rgba(0, 0, 0, .87);
+    font-family: 'Roboto Condensed', serif;
+    font-size: 16px;
+}
+
+.container p
+{
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .60);
+    font-size: 12px;
+}
+
+.outline1 .text-footer
+{
+    margin: 8px 0 8px 0;
+}
+
+.container .text-header
+{
+    position: absolute;
+    color:#6750A4;
+    top: -8px;
+    background: #fff;
+    padding: 0 2px;
+
+}
+
+::placeholder
+{
+    color: rgba(0, 0, 0, .60);
+}
+
+
+.container i
+{
+    font-size: 24px;
+    right: 12px;
+    top: 12px;
+    color: rgba(0, 0, 0, .87);
+    position: absolute;
+   
+}
+
+
+.outline2
+{
+    outline: 2px solid #6750A4;
+}
+
+
+
+.outline3
+{
+    background-color: rgba(0, 0, 0, .12);
+    outline: 2px solid #a45050;
+}
+
+.outline3 input
+{
+    height: auto;
+}
+
+.outline3 .text-header
+{
+    display: block;
+    position: static;
+    font-size: 12px;
+    margin: 6px 0 1px 0;
+    color: #a45050;
+    background: none;
+}
+
+.outline3 i
+{
+    color: #a45050;
+}
+
+.outline3 .text-footer
+{
+    margin: 16px 0 8px 0;
+    color: #a45050;
 }
