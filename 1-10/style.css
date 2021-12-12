@@ -1,0 +1,157 @@
+@font-face {
+    font-family: iransans-bold;
+    src: url('fonts/IRANSansWeb\(FaNum\)_Bold.ttf');
+}
+
+@font-face {
+    font-family: iransans-medium;
+    src: url('fonts/IRANSansWeb\(FaNum\)_Medium.ttf');
+}
+
+*
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    direction: rtl;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(168, 102, 255);
+}
+
+
+
+
+@media screen and (max-device-width: 480px)
+{
+    .card
+    {
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 5px;
+        height: auto;
+        font-family: iransans-medium;
+        border-radius: 1em;
+        background-color: #fff;
+        box-shadow: 1px 1px 10px 1px #000000;
+    }
+
+    .card img
+    {
+        display: inline-block;
+        width: 25%;
+        height: 100%;   
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+
+    .card-body
+    {
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    
+
+    .card .card-body #title
+    {
+        font-family: iransans-bold;
+        font-size: 3vw;
+        padding: 10px 20px 0 20px;
+        word-spacing: 0px;
+    }
+
+    .card .card-body #price
+    {
+        font-size: 1.5vw;
+    }
+
+    .card .card-body #detail
+    {
+        font-size: 2vw;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-device-width: 481px)
+{
+
+
+.card
+{
+    margin: 0 auto;
+    width: 345px;
+    padding-bottom: 5px;
+    height: auto;
+    font-family: iransans-medium;
+    border-radius: 1em;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 1px #000000;
+}
+
+.card img
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.card .card-body #title
+{
+    font-family: iransans-bold;
+    font-size: 1.5em;
+    padding: 10px 20px 0 20px;
+    word-spacing: -4px;
+}
+
+.card .card-body p
+{
+    padding: 5px 20px;
+    font-size: .8em;
+}
+
+.card .card-body #price
+{
+    color: #545454;
+}
+
+.card .card-body #detail
+{
+    padding: 25px 20px 20px 20px;
+}
+
+.card .card-body a
+{   
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-radius: .5em;
+    background: #7f2ae0;
+    text-decoration: none;
+    font-family: iransans-medium;
+    color: #fff;
+
+}
+}
