@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #373737;
+        }
+        h3
+        {
+            position: relative;
+            font-size: 20px;
+            color: #f9f9f9;
+            letter-spacing: 1px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            top: -4px;
+            right: 20px;
+        }
+        form
+        {
+            position: relative;
+        }
+        #form #email
+        {
+            width: 300px;
+            background: #292929;
+            outline: none;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 18px;
+        }
+        #form .inputBox
+        {
+            position: relative;
+        }
+        #text
+        {
+            display: block;
+            color: #000;
+            font-weight: 300;
+            padding: 5px; 
+        }
+
+        #form.invalid .inputBox::before
+        {
+            content: '';
+            position: absolute;
+            right: 12px;
+            top: 9px;
+            width: 24px;
+            height: 24px;
+            background: url(invalid.png);
+            background-size: cover;
+            z-index: 1000;
+        }
+
+        #form.valid .inputBox::before
+        {
+            content: '';
+            position: absolute;
+            right: 12px;
+            top: 9px;
+            width: 24px;
+            height: 24px;
+            background: url(valid.png);
+            background-size: cover;
+            z-index: 1000;
+        }
+    </style>
+    <title>اعتبارسنجی پست الکترونیک| Email</title>
+</head>
+<body>
+    <h3>اعتبارسنجی ایمیل</h3>
+    <form action="#" id="form">
+        <div class="inputBox">
+            <input type="text" onkeydown="validation()" name="" id="email" placeholder="ایمیل خود را وارد کنید">
+            <span id="text"></span>
+        </div>
+    </form>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
