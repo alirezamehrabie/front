@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+*,
+*::before,
+*::after
+{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #222;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+.form_group
+{
+	position: relative;
+	padding: 15px 0 0;
+	margin-top: 10px;
+	width: 50%;
+}
+
+.form_field
+{
+	width: 100%;
+	border: 0;
+	border-bottom: 2px solid #9b9b9b;
+	outline: 0;
+	font-size: 1.3rem;
+	color: #fff;
+	padding: 7px 0;
+	background-color: transparent;
+	transition: border-color 0.2s;
+}
+
+.form_field::placeholder
+{
+	color: transparent;
+}
+
+.form_label
+{
+	position: absolute;
+	top: 25px;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: #9b9b9b;
+}
+
+
+.form_field::palceholder-shown ~ .form_label
+{
+	font-size: 1.3rem;
+	cursor: text;
+	top: 20px;
+}
+
+.form_field:focus
+{
+	padding-bottom: 6px;
+	font-weight: 700;
+	border-width: 3px;
+	border-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	border-image-slice: 1;
+	
+}
+
+.form_field:focus ~ .form_label
+{
+	position: absolute;
+	top: 0px;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: #2afadf;
+	font-weight: 700;
+}
+
+
+
+
+
+
